@@ -1,0 +1,21 @@
+{
+  "name": "FAQ-BOT",
+  "version": "1.0.0",
+  "description": "FAQ Discord Bot for looking up relevant forum posts",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "repository": "git@github.com:AlikanakelaKarwowski/FAQ-BOT.git",
+  "author": "A.Karwowski",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
